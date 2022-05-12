@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy - Cut - Paste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" name="" id="copyText"> <br> <br>
+    <input type="text" name="" id="cutText"> <br> <br>
+    <input type="text" name="" id="pasteText">
+
+
+    <script>
+        var bgNavbar = document.getElementById('bg-navbar');
+        window.onscroll = function(){
+           var scroll_nav = window.scrollY;
+           if(scroll_nav >= 100){
+                bgNavbar.classList.add('after-scroll-navbar');
+           }
+           else{
+            bgNavbar.classList.remove('after-scroll-navbar');
+           }
+        }
+    </script>
+</body>
+</html>
