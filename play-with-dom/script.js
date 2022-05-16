@@ -46,6 +46,58 @@
 
 // let lastItem = document.querySelectorAll('.item:last-child');
 
-let lastItem = document.querySelector('.item:nth-child(2)');
+// let lastItem = document.querySelector('.item:nth-child(2)');
 
-lastItem.style.color = "yellow";
+// lastItem.style.color = "yellow";
+
+
+
+// const parent = document.querySelector('#items');
+
+// const children = parent.children;
+// console.log(children[1]);
+
+//Query Selector  up to down
+
+// const grandParent = document.querySelector('.todo-list');
+// // const parent = grandParent.children;
+// // const children = parent[1].children;
+
+// const children = grandParent.querySelectorAll('.item');
+
+
+// console.log(children);
+
+
+// const children = document.querySelector('.item');
+
+// const parent = children.parentElement;
+
+// console.log(parent);
+
+
+//Closest down to up
+
+// const children = document.querySelector('.item');
+
+// const grandParent = children.closest('.todo-list');
+
+
+// console.log(grandParent);
+
+//Next Sibling
+
+// const childrenOne = document.querySelector('.item');
+
+// const childrenTwo = childrenOne.nextElementSibling;
+
+// childrenTwo.style.color = "yellow";
+
+
+//Previous Sibling
+
+const childrenTwo = document.querySelector('.item');
+
+const childrenOne = childrenTwo.previousElementSibling;
+
+childrenTwo.style.color = "yellow";
