@@ -13,4 +13,39 @@
 // }
 
 
-console.log(document.all[5]);
+// console.log(document.all[5]);
+
+// console.dir(document);
+
+// let headerElement = document.getElementById('header');
+// headerElement.style.color = 'red';
+
+// headerElement.style.fontSize = '50px';
+
+
+// let items = document.getElementsByClassName('item');
+
+// let itemUl = document.getElementById('items');
+
+// let items = itemUl.getElementsByClassName('item');
+
+
+
+// for(let i=0;i<items.length;i++){
+//     items[i].style.color = 'blue';
+// }
+
+
+// let tagName = document.getElementsByTagName('li');
+// console.log(tagName);
+
+// let newTask = document.querySelector('#new-task');
+
+// console.log(newTask);
+
+
+// let lastItem = document.querySelectorAll('.item:last-child');
+
+let lastItem = document.querySelector('.item:nth-child(2)');
+
+lastItem.style.color = "yellow";
