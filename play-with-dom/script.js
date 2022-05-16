@@ -96,8 +96,21 @@
 
 //Previous Sibling
 
-const childrenTwo = document.querySelector('.item');
+// const childrenTwo = document.querySelector('.item');
 
-const childrenOne = childrenTwo.previousElementSibling;
+// const childrenOne = childrenTwo.previousElementSibling;
 
-childrenTwo.style.color = "yellow";
+// childrenTwo.style.color = "yellow";
+
+
+//Dom Manipulation
+
+const divElement = document.createElement('div');
+
+divElement.className = 'red';
+divElement.setAttribute('id','red');
+
+
+const container = document.querySelector('.todo-list');
+
+container.append(divElement);
