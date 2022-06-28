@@ -109,8 +109,17 @@ const divElement = document.createElement('div');
 
 divElement.className = 'red';
 divElement.setAttribute('id','red');
+divElement.setAttribute('title','Red Div');
 
 
 const container = document.querySelector('.todo-list');
+const h2Element = container.querySelector('h2');
 
-container.append(divElement);
+// container.insertBefore(divElement, h2Element);
+
+// container.appendChild('Hello world');
+container.append('Hello world');
+// container.appendChild(divElement);
+
+// appendChild only accept html element 
+//append accept text element
