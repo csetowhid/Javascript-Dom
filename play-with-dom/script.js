@@ -123,3 +123,13 @@ container.append('Hello world');
 
 // appendChild only accept html element 
 //append accept text element
+
+//Event Listener
+
+const headerElement = document.querySelector('#header');
+
+//click dblclick mousedown mouseup moushover mouseenter mouseleave mouseout focus
+
+headerElement.addEventListener('mouseleave', (event)=>{
+    console.log(event);
+});
